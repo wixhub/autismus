@@ -1,1 +1,52 @@
-/* You can add global styles to this file, and also import other style files */
+// Root SCSS variables for consistent low-stimulus design system
+:root {
+  --bg-primary: #0a0d10;
+  --bg-surface: #121820;
+  --bg-card: #18222d;
+  --border-color: #273546;
+  --text-main: #e2e8f0;
+  --text-muted: #94a3b8;
+
+  // Primary system accent
+  --accent-color: #38bdf8;
+  --accent-glow: rgba(56, 189, 248, 0.12);
+
+  // Operational mode semantic tokens (low-glare, muted saturation)
+  --mode-rescue-color: #f59e0b;
+  --mode-rescue-bg: rgba(245, 158, 11, 0.12);
+  --mode-rescue-border: rgba(245, 158, 11, 0.35);
+
+  --mode-shield-color: #38bdf8;
+  --mode-shield-bg: rgba(56, 189, 248, 0.12);
+  --mode-shield-border: rgba(56, 189, 248, 0.35);
+
+  --mode-training-color: #34d399;
+  --mode-training-bg: rgba(52, 211, 153, 0.12);
+  --mode-training-border: rgba(52, 211, 153, 0.35);
+
+  --font-sans: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-mono: 'SF Mono', Fira Code, Consolas, monospace;
+
+  --transition-smooth: 0.2s ease-in-out;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--bg-primary);
+  color: var(--text-main);
+  font-family: var(--font-sans);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
