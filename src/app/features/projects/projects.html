@@ -1,0 +1,42 @@
+<main class="portfolio-container">
+  <!-- Header section  -->
+  <header class="portfolio-header">
+    <div class="header-badge">RSE // NEURO-ERGONOMIC SUITE // State Stabilisation System</div>
+    <h1>Cognitive Architecture & Assistive Engineering</h1>
+    <p class="subtitle">
+      Browser-native, zero-telemetry applications powered by WebAssembly, C++20, WebGPU, and Angular
+      Signals. Engineered for acute sensory crisis intervention, executive function support, and
+      structured daily training.
+    </p>
+
+    <!-- Operational mode filter bar -->
+    <nav class="filter-bar" aria-label="Filter tools by operational mode">
+      @for (mode of modes; track mode) {
+        <button
+          type="button"
+          class="filter-btn"
+          [class.active]="selectedMode() === mode"
+          (click)="setFilter(mode)"
+        >
+          {{ mode }}
+        </button>
+      }
+    </nav>
+  </header>
+
+  @if (isLoading()) {
+    <div class="status-message">Initializing local matrix parameters...</div>
+  }
+
+  @if (errorMessage(); as error) {
+    <div class="status-message error">{{ error }}</div>
+  }
+
+  @if (!isLoading() && !errorMessage()) {
+    <section class="projects-grid">
+      @for (project of filteredProjects(); track project.id) {
+        <app-project-card [project]="project" />
+      }
+    </section>
+  }
+</main>
