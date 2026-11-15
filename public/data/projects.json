@@ -1,0 +1,122 @@
+[
+  {
+    "id": "meltdown-circuit-breaker",
+    "title": "Meltdown Circuit Breaker & AAC",
+    "category": "Emergency Sensory & Speech Rescue",
+    "operationalMode": "Critical Rescue",
+    "description": "One-tap emergency browser sanctuary for acute sensory overload or non-verbal shutdowns. Instantly drops screen luminance, generates brown/pink noise via WebAudio DSP, runs paced visual breathing shaders, and provides full-screen high-contrast AAC communication cards for bystanders.",
+    "techStack": ["Angular Signals", "WebAudio API", "WebGL Shaders"],
+    "deployUrl": "https://meltdown-breaker.pages.dev",
+    "metrics": "Sub-50ms sensory isolation & instant non-verbal communication"
+  },
+  {
+    "id": "hyperfocus-state-machine",
+    "title": "Hyperfocus State Machine",
+    "category": "Time-Blindness & Flow Orchestrator",
+    "operationalMode": "Continuous Shield",
+    "description": "Deterministic finite-state automaton that models recursive engineering dependencies and protects deep-work sessions. Uses gentle peripheral chromatic shifts instead of jarring alarms to prevent time-blindness and guide smooth transitions to physiological breaks.",
+    "techStack": ["Angular 22", "TypeScript", "IndexedDB"],
+    "deployUrl": "https://hyperfocus-state-machine.pages.dev",
+    "metrics": "Zero context drop during 6-hour deep engineering sessions"
+  },
+  {
+    "id": "cognitive-load-shield",
+    "title": "Cognitive Load & Jargon Stripper",
+    "category": "Asynchronous Communication Filter",
+    "operationalMode": "Continuous Shield",
+    "description": "Client-side text processor that strips emotional fluff, passive-aggressive subtext, and corporate ambiguity from pasted emails, specs, or chat threads, restructuring them into clean, bulleted literal requirements.",
+    "techStack": ["C++20", "WebAssembly", "Transformers.js"],
+    "deployUrl": "https://cognitive-load-shield.pages.dev",
+    "metrics": "Cuts reading & parsing fatigue by ~74%"
+  },
+  {
+    "id": "executive-paralysis-breaker",
+    "title": "Executive Dysfunction Micro-Slicer",
+    "category": "Task Initiation & Inertia Bypass",
+    "operationalMode": "Critical Rescue",
+    "description": "Emergency tool for severe task paralysis. Takes a single overwhelming goal and uses a local graph solver to strip away everything except one atomic, 2-minute physical action, hiding the rest of the tree until momentum is established.",
+    "techStack": ["Angular 22", "WASM Graph Engine", "Signals"],
+    "deployUrl": "https://inertia-slicer.pages.dev",
+    "metrics": "Eliminates multi-hour analysis paralysis loops"
+  },
+  {
+    "id": "acoustic-dsp-masker",
+    "title": "Psychoacoustic Environmental Masker",
+    "category": "Auditory Hypersensitivity Control",
+    "operationalMode": "Critical Rescue",
+    "description": "Real-time browser synthesizer written in C++20 compiled to AudioWorklet/WASM. Generates customizable colored noise, binaural focus frequencies, and dynamic notch filtering to mask unpredictable environmental frequencies (HVAC hum, traffic, voices).",
+    "techStack": ["C++20", "Emscripten", "WebAudio AudioWorklet"],
+    "deployUrl": "https://acoustic-dsp-masker.pages.dev",
+    "metrics": "Zero-latency custom spectral masking in browser"
+  },
+  {
+    "id": "decision-matrix-engine",
+    "title": "Deterministic Decision Matrix",
+    "category": "Analysis Paralysis Elimination",
+    "operationalMode": "Critical Rescue",
+    "description": "Multi-criteria decision analysis (MCDA) engine for moments when competing variables cause cognitive freeze. Applies weighted linear programming and strict elimination thresholds in WASM to output a mathematically optimal choice.",
+    "techStack": ["C++20", "WebAssembly", "Angular"],
+    "deployUrl": "https://decision-matrix-engine.pages.dev",
+    "metrics": "Resolves complex multi-variable choices in under 90 seconds"
+  },
+  {
+    "id": "interoception-calibration-trainer",
+    "title": "Interoception & Somatic Scanner",
+    "category": "Somatic Awareness Training",
+    "operationalMode": "Daily Training",
+    "description": "Structured daily bio-feedback check-in designed to counter alexithymia and poor interoceptive awareness. Maps subtle physical tension, jaw clenching, hydration, and fatigue signals onto a 3D anatomical body mesh to detect burnout 24 hours before onset.",
+    "techStack": ["Three.js", "WebGL", "Angular Signals"],
+    "deployUrl": "https://interoception-scanner.pages.dev",
+    "metrics": "Early detection of pre-meltdown somatic accumulation"
+  },
+  {
+    "id": "microexpression-cv-lab",
+    "title": "Facial Action Coding (FACS) Trainer",
+    "category": "Computer Vision Social Decoding",
+    "operationalMode": "Daily Training",
+    "description": "Local-first Computer Vision trainer powered by PyTorch/ONNX in WebGPU. Analyzes facial landmarks and Action Units (AUs) in real time or on video datasets to practice decoding neurotypical micro-expressions without the exhaustion of live social masking.",
+    "techStack": ["ONNX Runtime Web", "WebGPU", "MediaPipe"],
+    "deployUrl": "https://facs-cv-trainer.pages.dev",
+    "metrics": "100% client-side CV inference, zero webcam data leaves browser"
+  },
+  {
+    "id": "prosody-intonation-analyzer",
+    "title": "Vocal Prosody & Pitch Visualizer",
+    "category": "Paralinguistic & Tone Calibration",
+    "operationalMode": "Daily Training",
+    "description": "Real-time FFT pitch-contour and cadence oscilloscope. Helps practice vocal modulation or decode neurotypical sarcasm and emotional subtext by visualizing fundamental frequency (F0) variance and speech rhythm patterns.",
+    "techStack": ["C++20 FFT", "WebAssembly", "Canvas 2D"],
+    "deployUrl": "https://prosody-visualizer.pages.dev",
+    "metrics": "Real-time F0 pitch contour tracking at 60 FPS"
+  },
+  {
+    "id": "social-protocol-simulator",
+    "title": "Social Protocol & Script Sandbox",
+    "category": "Conversational State-Tree Training",
+    "operationalMode": "Daily Training",
+    "description": "Interactive branching state-machine for rehearsing high-stakes interviews, salary negotiations, or medical appointments. Models conversational edge cases, unwritten etiquette rules, and pre-computes low-energy exit scripts.",
+    "techStack": ["TypeScript", "Angular", "Local LLM / WebLLM"],
+    "deployUrl": "https://social-protocol-sandbox.pages.dev",
+    "metrics": "Reduces post-interaction masking exhaustion by ~60%"
+  },
+  {
+    "id": "energy-accounting-ledger",
+    "title": "Cognitive Spoon & Burnout Ledger",
+    "category": "Allostatic Load Forecasting",
+    "operationalMode": "Continuous Shield",
+    "description": "Quantitative energy telemetry system modeling sensory, social, and cognitive expenditure as thermodynamic budgets. Uses time-series forecasting to warn when upcoming calendar commitments exceed recovery capacity.",
+    "techStack": ["TypeScript", "Angular Signals", "IndexedDB"],
+    "deployUrl": "https://allostatic-ledger.pages.dev",
+    "metrics": "Predictive burnout modeling across 14-day rolling windows"
+  },
+  {
+    "id": "special-interest-3d-graph",
+    "title": "Special Interest Spatial Graph",
+    "category": "Deep Domain Knowledge Architecture",
+    "operationalMode": "Daily Training",
+    "description": "High-performance force-directed 3D knowledge engine built with C++20 spatial indexing and WebGL. Designed to ingest, link, and explore thousands of research papers, specs, and deep-dive notes without linear folder friction.",
+    "techStack": ["C++20", "Emscripten", "Three.js"],
+    "deployUrl": "https://spatial-knowledge-graph.pages.dev",
+    "metrics": "Renders 50,000+ interconnected nodes smoothly in browser"
+  }
+]
